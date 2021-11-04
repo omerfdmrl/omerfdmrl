@@ -38,7 +38,7 @@
 ### 📺 Latest Projects
 
 
-- [Php Security Class 🚀, Open Source 💪](https://www.youtube.com/watch?v=KxLgwLa8Aq8)
+- [Php Security Class 🚀, Open Source 💪](https://github.com/omerfdmrl/waf)
 
 
 ➡️ [more...](https://github.com/omerfdmrl?tab=repositories)

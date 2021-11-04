@@ -54,7 +54,7 @@
 
 ---
 
- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=omerfdmrl&show_icons=true&theme=radical)
+ ![GitHub stats](https://github-readme-stats.vercel.app/api?username=omerfdmrl&show_icons=true&theme=radical)
 
 
 [website]: https://omerdemirel.com.tr

@@ -1,6 +1,5 @@
 ### Hi there, I'm Ömer Faruk  👋
 
-[![Instagram Follow](https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
 
 ## I'm a Php Developer
 
@@ -80,7 +79,7 @@
 [twitter]: https://twitter.com/omerfdmrl
 [youtube]: https://youtube.com/omerfdmrl
 [instagram]: https://instagram.com/omerfarukdemirel_
-[linkedin]: https://linkedin.com/in/omerfdmrl
+[linkedin]: https://www.linkedin.com/in/omerfdmrl/
 [webdevplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrAJ0WbEsFA9W3I1W-g_BTsbt
 [jsplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrALRJKu7wfXby3MKeflhTu6B
 [cssplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrALSdvZuEh6gqQdmDoDIoqz4

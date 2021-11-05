@@ -39,6 +39,7 @@
 
 
 - [Php Security Class 🚀, Open Source 💪](https://github.com/omerfdmrl/waf)
+- [Php Cookie Class 🚀, Open Source 💪](https://github.com/omerfdmrl/cookie)
 
 
 ➡️ [more...](https://github.com/omerfdmrl?tab=repositories)

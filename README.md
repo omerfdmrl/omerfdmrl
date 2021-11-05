@@ -57,7 +57,7 @@
  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=omerfdmrl&show_icons=true&theme=radical)
 
 
-[website]: https://omerdemirel.com.tr
-[instagram]: https://instagram.com/omerfarukdemirel_
+[website]: https://github.com/omerfdmrl
+[instagram]: https://instagram.com/omerfdmrl
 [linkedin]: https://www.linkedin.com/in/omerfdmrl/
 

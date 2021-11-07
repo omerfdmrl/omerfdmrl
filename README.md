@@ -43,6 +43,7 @@
 - [Php Security Class 🚀, Open Source 💪](https://github.com/omerfdmrl/waf)
 - [Php Cookie Class 🚀, Open Source 💪](https://github.com/omerfdmrl/cookie)
 - [Php Logger Class 🚀, Open Source 💪](https://github.com/omerfdmrl/logger)
+- [Php Google TTS Api Class 🚀, Open Source 💪](https://github.com/omerfdmrl/tts)
 
 
 ➡️ [more...](https://github.com/omerfdmrl?tab=repositories)

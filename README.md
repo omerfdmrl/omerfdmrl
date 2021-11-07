@@ -3,7 +3,8 @@
 
 ## I'm a Php Developer
 
-- 🌱 I’m currently learning everything 🤣
+- 🌱 I’m currently learning everything 🤣 
+- 🏫 I'm learning on USKUDAR UNIVERSITY as Computer Engineer.
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2020 Goals: Contribute more to Open Source projects
 - 💪 Sport fact: I love to fitness and I work everday

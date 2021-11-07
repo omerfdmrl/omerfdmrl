@@ -4,10 +4,11 @@
 ## I'm a Php Developer
 
 - 🌱 I’m currently learning everything 🤣 
-- 🏫 I'm learning on USKUDAR UNIVERSITY as Computer Engineer.
+- 🏫 I'm learning on USKUDAR UNIVERSITY as Computer Engineer
+- 👨‍💻 I'm working as a Wordpress Freelancer Developer 
 - 👯 I’m looking to collaborate with other content creators
-- 🥅 2020 Goals: Contribute more to Open Source projects
-- 💪 Sport fact: I love to fitness and I work everday
+- 🥅 2021 Goals: Contribute more to Open Source projects
+- 💪 Sport fact: I love to fitness and I work everday (Without Sunday 😕)
 
 ### Connect with me:
 

@@ -12,8 +12,8 @@
 
 ### Connect with me:
 
-[<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+[<img align="left" alt="Blog" width="22px" src="https://cdn-icons-png.flaticon.com/512/1330/1330233.png" />][blog]
+[<img align="left" alt="Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br />
 
@@ -65,4 +65,5 @@
 [website]: https://github.com/omerfdmrl
 [instagram]: https://instagram.com/omerfdmrl
 [linkedin]: https://www.linkedin.com/in/omerfdmrl/
+[blog]: https://omerdemirel.com.tr
 

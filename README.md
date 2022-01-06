@@ -12,8 +12,8 @@
 
 ### Connect with me:
 
-[<img align="left" alt="Blog" width="22px" src="https://cdn-icons-png.flaticon.com/512/179/179312.png" />][blog]
-[<img align="left" alt="Instagram" width="22px" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" />][instagram]
+[<img target="_blank" align="left" alt="Blog" width="22px" src="https://cdn-icons-png.flaticon.com/512/179/179312.png" />][blog]
+[<img target="_blank" align="left" alt="Instagram" width="22px" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" />][instagram]
 
 <br />
 

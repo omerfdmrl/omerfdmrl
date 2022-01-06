@@ -54,7 +54,7 @@
 
 
 - [Md5Decoder (tr|en)](https://md5decoder.net)
-- [GizemliBilgi (tr)](https://gizemlibilgi.com)
+- [PeedPiper (tr|en)](https://peedpiper.com)
 
 
 ---

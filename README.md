@@ -52,7 +52,7 @@
 
 ### 📕 Current Websites
 
-
+- [Blog (tr)](https://omerdemirel.com.tr)
 - [Md5Decoder (tr|en)](https://md5decoder.net)
 - [PeedPiper (tr|en)](https://peedpiper.com)
 

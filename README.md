@@ -52,7 +52,7 @@
 
 ### 📕 Current Websites
 
-**_NOTE:_**  I closed all of them :(
+**_I closed all of them :(_**
 
 
 ---

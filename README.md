@@ -1,3 +1,5 @@
+<img target="_blank" align="center" alt="Banner" src="https://res.cloudinary.com/practicaldev/image/fetch/s--72DWLTXf--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nbgcvpk0f1h58q9f19ep.jpeg">
+
 ### Hi there, I'm Ömer Faruk  👋
 
 

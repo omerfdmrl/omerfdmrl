@@ -59,11 +59,11 @@
 
 ---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=omerfdmrl&show_icons=true&locale=en&layout=compact" alt="omerfdmrl" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=omerfdmrl&show_icons=true&locale=en" alt="omerfdmrl" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=omerfdmrl&" alt="omerfdmrl" /></p>
+<p>
+   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=omerfdmrl&show_icons=true&locale=en&layout=compact" alt="omerfdmrl" />
+   <img align="center" src="https://github-readme-stats.vercel.app/api?username=omerfdmrl&show_icons=true&locale=en" alt="omerfdmrl" />
+   <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=omerfdmrl&" alt="omerfdmrl" />
+</p>
 
 
 [website]: https://github.com/omerfdmrl

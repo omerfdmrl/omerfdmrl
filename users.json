@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "631c95c909c237d8349f8d06"
+  },
+  "email": "omerfarukdemirel1234@gmail.com",
+  "password": "$2b$10$j/qVEMuL45cjmKpoYqDGqeiE41.1Kxao1WinQJnTyujMmtb8s3KlC",
+  "name": {
+    "first": "Ömer23",
+    "last": "Demirel"
+  },
+  "role": {
+    "$oid": "631c8f39fb0d6300ebf2d0c1"
+  },
+  "notification": {
+    "email": {
+      "status": true,
+      "failed_login_attempt": true
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1662817737690"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1662817737690"
+    }
+  },
+  "__v": 0,
+  "forgot_password": {
+    "code": "8e46a09ce94503579141bbff4a5909f2f7cb599fd81d9b45962f2ecd31e8a8b5",
+    "send": {
+      "$date": {
+        "$numberLong": "1663958805266"
+      }
+    },
+    "at": {
+      "$date": {
+        "$numberLong": "1662818875649"
+      }
+    }
+  },
+  "image": "http://127.0.0.1:8081/public/user/631c95c909c237d8349f8d06.png",
+  "verify": null,
+  "fac": {
+    "type": "email"
+  },
+  "username": "2333",
+  "about": "Eleanor Pena is a creator of minimalistic x bold graphics and digital artwork.",
+  "social": {
+    "instagram": "omerfdmrl",
+    "twitter": "omerfdmrl",
+    "linkedin": "omerfdmrl"
+  },
+  "group": [
+    {
+      "$oid": "632ca945a39ca734868302d6"
+    },
+    {
+      "$oid": "632c92ed588bc24bc2770b24"
+    }
+  ]
+}]

@@ -1,0 +1,89 @@
+[{
+  "_id": {
+    "$oid": "631c8f39fb0d6300ebf2d0c1"
+  },
+  "title": "Admin",
+  "permission": [
+    "login-site",
+    "register-site",
+    "site-blog-like",
+    "site-blog-report",
+    "site-comment-add",
+    "site-comment-like",
+    "site-comment-report",
+    "admin-get-settings",
+    "admin-save-settings",
+    "admin-get-user",
+    "admin-save-user",
+    "admin-get-menu",
+    "admin-save-menu",
+    "admin-get-role",
+    "admin-save-role",
+    "admin-get-group",
+    "admin-save-group",
+    "admin-get-role",
+    "admin-save-role",
+    "admin-get-group",
+    "admin-save-group",
+    "panel-blog-list",
+    "panel-blog-add",
+    "panel-blog-edit",
+    "panel-blog-save",
+    "panel-blog-delete",
+    "panel-user-edit",
+    "site-profile-follow",
+    "site-blog-dislike",
+    "admin-get-report",
+    "admin-save-report",
+    "admin-login-as"
+  ],
+  "default": false,
+  "banned": false
+},{
+  "_id": {
+    "$oid": "632cb8cbab3d09e2ff5b3c6d"
+  },
+  "title": "User",
+  "permission": [
+    "login-site",
+    "register-site",
+    "site-blog-like",
+    "site-blog-report",
+    "site-comment-add",
+    "site-comment-like",
+    "site-comment-report",
+    "site-blog-dislike",
+    "site-profile-follow"
+  ],
+  "default": false,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1663875275377"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1663875275377"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63305312d51afa4fdf4ca702"
+  },
+  "title": "Banlı",
+  "permission": [],
+  "default": false,
+  "banned": true,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1664111378906"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1664111378906"
+    }
+  },
+  "__v": 0
+}]

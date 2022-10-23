@@ -1,7 +1,7 @@
 ### Hi there, I'm Ömer Faruk  👋
 
 
-## I'm a Php Developer
+## I'm a Back-End Developer
 
 - 🌱 I’m currently learning everything 🤣 
 - 🏫 I'm learning on USKUDAR UNIVERSITY as Computer Engineer

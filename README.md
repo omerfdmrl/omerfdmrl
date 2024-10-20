@@ -14,7 +14,7 @@
 ### 📺 My Projects
 
 
-- [Alemdar 🧠](https://github.com/omerfdmrl/alemdar) ; Alemdar is neural network library written in C.
+- [Ican 🧠](https://github.com/omerfdmrl/ican) ; Ican is neural network library written in C.
 
 
 ➡️ [more...](https://github.com/omerfdmrl?tab=repositories)

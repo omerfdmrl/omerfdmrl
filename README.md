@@ -1,96 +1,99 @@
-# AI Agent Action - Project Status
+# Ailemdar 
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/omerfdmrl/AI-Agent-Action/main?label=build)](https://github.com/omerfdmrl)
-[![License](https://img.shields.io/github/license/omerfdmrl/AI-Agent-Action)](https://github.com/omerfdmrl)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Ready-blue?logo=github-actions)](https://github.com/omerfdmrl)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)](https://github.com/omerfdmrl)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/omerfdmrl)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](https://github.com/omerfdmrl)
 
-## 🚧 IMPLEMENTATION IN PROGRESS
-
-**Last Updated:** 2025-02-16  
-**Current Phase:** Phase 10 - Security & Observability  
-**Status:** 🟡 In Progress
+> **Your Intelligent AI Software Engineering Assistant** 
+> 
+> Automated PR reviews and issue resolution powered by state-of-the-art LLMs
 
 ---
 
-## 📋 PHASE TRACKER
+## ✨ Features
 
-### ✅ Completed Phases
+- **🤖 AI-Powered PR Reviews** - Get intelligent code reviews with inline comments, identifying bugs, security issues, and improvements
+- **🔧 Automatic Issue Resolution** - Analyzes GitHub issues and automatically creates fixes with pull requests
+- **🎯 Multi-LLM Support** - Works with OpenAI, Anthropic Claude, Google Gemini, Ollama (local), and custom endpoints
+- **🔍 Smart Context Management** - Vector-based code search using FAISS for understanding large codebases
+- **⚡ Fast & Efficient** - Local embeddings support for reduced API costs and faster processing
+- **🛡️ Security First** - Built-in security checks and safe code modification practices
+- **📊 Structured Logging** - Comprehensive observability with structured JSON logging
+- **🐳 Docker Ready** - Containerized for easy deployment as GitHub Action or standalone service
 
-**Phase 1: Project Structure & Foundation** (2025-02-16)
-- [x] Create directory structure
-- [x] Initialize pyproject.toml with dependencies
-- [x] Set up Python package structure
-- [x] Create initial configuration files
-- [x] Install dependencies in virtual environment
+---
 
-**Phase 2: MCP Server Core** (2025-02-16)
-- [x] FastAPI application setup with health checks
-- [x] API endpoints for /review and /solve
-- [x] Request/response middleware with trace IDs
-- [x] Main entry point (main.py)
-- [x] Structured logging with structlog
-- [x] Security utilities (path validation, secret masking)
+## 🚀 Quick Start
 
-**Phase 3: LLM Abstraction Layer** (2025-02-16)
-- [x] LiteLLM client implementation
-- [x] OpenAI + Ollama support via base_url
-- [x] Tool calling with JSON fallback
-- [x] Token tracking and usage metrics
-- [x] Retry logic with exponential backoff
-- [x] Structured output client with validation
-- [x] System prompts for review and solver modes
+### Using as GitHub Action
 
-**Phase 4: Discovery Tools** (2025-02-16)
-- [x] File reading with path validation
-- [x] Directory structure exploration
-- [x] AST parsing for Python files
-- [x] Regex and semantic search (FAISS)
-- [x] GitHub issue/PR details fetching
+```yaml
+name: AI Code Review
 
-**Phase 5: Code Modification Tools** (2025-02-16)
-- [x] Safe file editing (line-based)
-- [x] File creation/deletion
-- [x] Syntax validation with linters
-- [x] Container-based code execution
+on:
+  pull_request:
+    types: [opened, synchronize]
+  issues:
+    types: [opened, labeled]
 
-**Phase 6: GitHub Operations** (2025-02-16)
-- [x] Inline PR comments
-- [x] PR review summaries
-- [x] Branch creation
-- [x] Commit changes
-- [x] Open/update pull requests
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: AI Code Review
+        uses: your-org/ailemdar@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          llm_provider: openai
+          llm_model: gpt-4o
+          llm_api_key: ${{ secrets.OPENAI_API_KEY }}
+```
 
-**Phase 7: PR Review Pipeline** (2025-02-16)
-- [x] Fetch PR data and diffs
-- [x] Build context from changed files
-- [x] Generate structured review with LLM
-- [x] Publish inline comments and summary
-- [x] Configurable comment limits
+### Local Development
 
-**Phase 8: Issue Solver Pipeline** (2025-02-16)
-- [x] Fetch issue details and comments
-- [x] Repository indexing for semantic search
-- [x] Create resolution plan with LLM
-- [x] Gather code context
-- [x] Generate and apply fixes
-- [x] Create PR with changes
+```bash
+# Clone the repository
+git clone https://github.com/your-org/ailemdar.git
+cd ailemdar
 
-**Phase 9: GitHub Actions** (2025-02-16)
-- [x] `action.yml` with all configurable inputs
-- [x] Multi-stage Dockerfile
-- [x] Entrypoint script for PR/issue events
-- [x] CLI entrypoints (review_pr, solve_issue)
-- [x] Sample workflow file
+# Setup virtual environment and install dependencies
+make setup-venv
+source venv/bin/activate
 
-### 🟡 Current Phase
+# Configure environment
+cp .env.example .env
+# Edit .env with your API keys
 
-**Phase 10: Security & Observability**
-- [x] Path traversal protection
-- [x] Secret masking in logs
-- [x] Structured JSON logging
-- [ ] Metrics collection
-- [ ] Rate limiting
+# Run tests
+make test
 
-### ⏳ Pending Phases
+# Start development server
+make dev
+```
 
-**Phase 11: Testing**
-- Unit tests
+---
+
+## 📋 Requirements
+
+- **Python**: 3.11 or higher
+- **GitHub Token**: For repository access
+- **LLM API Key**: OpenAI, Anthropic, Google, or custom provider
+- **Docker**: (optional) For containerized deployment
+
+---
+
+## 🔧 Configuration
+
+### Environment Variables
+
+| Variable | Description | Required | Default |
+|----------|-------------|----------|---------|
+| `GITHUB_TOKEN` | GitHub API token | Yes | - |
+| `LLM_PROVIDER` | LLM provider (openai, anthropic, gemini, ollama) | No | openai |
+| `LLM_MODEL` | Model name (e.g., gpt-4o, claude-3-5-sonnet) | No | gpt-4o |
+| `LLM_API_KEY` | API key for LLM provider | Yes* | - |
+| `LLM_BASE_URL` | Custom endpoint URL (for Ollama/self-hosted) | No** | - |
+| `ENABLE_LIN
